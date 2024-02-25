@@ -67,10 +67,11 @@ header {
 }
 
     header .logo {
-        font-size: 2.5rem;
+        font-size: 3.5rem;
         font-weight: bolder;
-        color: #fff;
+        color: white;
         text-transform: uppercase;
+        text-decoration: none;
     }
 
         header .logo span {
@@ -81,6 +82,8 @@ header {
         color: #fff;
         font-size: 2rem;
         margin: 0 .8rem;
+        margin-left: 30px;
+        text-decoration: none;
     }
 
         header .navbar a:hover {
@@ -145,7 +148,7 @@ header {
 
             .login-form-container form .box:focus {
                 border-color: var(--orange);
-                ;
+                
             }
 
         .login-form-container form #remember {
@@ -210,15 +213,21 @@ header {
     }
 
         .home .content h3 {
-            font-size: 4.5rem;
-            color: #fff;
-            text-transform: uppercase;
+            font-size: 5.5rem;
+            color: purple;
+           // text-transform: uppercase;
+            text-shadow: 0 .3rem .5rem rgba(0,0,0,.1);
+        }
+
+        .home .content h4 {
+            font-size: 3.5rem;
+            color: oldlace;
             text-shadow: 0 .3rem .5rem rgba(0,0,0,.1);
         }
 
         .home .content p {
             font-size: 2.5rem;
-            color: #fff;
+            color: red;
             padding: .5rem 0;
         }
 

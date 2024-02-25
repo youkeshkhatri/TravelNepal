@@ -9,13 +9,11 @@
 
     <div id="menu-bar" class="fas fa-bars"></div>
 
-    <a href="#" class="logo"><span></span>Travel&nbsp<span></span>Nepal</a>
+    <a href="#" class="logo"><span>Tra</span>vel&nbsp<span>Nep</span>al</a>
 
     <nav class="navbar">
         <a href="#home">HOME</a>
         <a href="#book">BOOK</a>
-        <a href="#packages">PACKAGES</a>
-        <a href="#services">SERVICES</a>
         <a href="#gallery">GALLERY</a>
         <a href="#footer">CONTACT</a>
     </nav>
@@ -27,7 +25,8 @@
 <div class="home" id="home">
 
     <div class="content">
-        <h3>adventure is worthwhile</h3>
+        <h3>Let the Adventure Begin</h3>
+        <h4>Adventure is Worthwhile</h4>
         <p>Dicover new places with us, Adventure awaits</p>
         <a href="#" class="btn">Discover More...</a>
     </div>
@@ -81,6 +80,23 @@
               <div class="col-md-9 pe-5">
 
                <input type="text" placeholder="Full Name" class="form-control form-control-lg">
+
+              </div>
+            </div>
+
+
+
+                <hr class="mx-n3">
+
+            <div class="row align-items-center py-3">
+              <div class="col-md-3 ps-5">
+
+                <h3 class="mb-0">Contact</h3>
+
+              </div>
+              <div class="col-md-9 pe-5">
+
+                  <input type="number" placeholder="Enter your Phone Number" class="form-control form-control-lg">
 
               </div>
             </div>
@@ -178,56 +194,61 @@
 
 
     
-<!-- packages section starts  -->
+<!-- gallery section starts  -->
 
-<section class="packages" id="packages">
+<section class="gallery" id="gallery">
 
     <h1 class="heading">
-        <span>P</span>
-        <span>A</span>
-        <span>C</span>
-        <span>K</span>
-        <span>A</span>
         <span>G</span>
+        <span>A</span>
+        <span>L</span>
+        <span>L</span>
         <span>E</span>
-        <span>S</span>
+        <span>R</span>
+        <span>Y</span>
     </h1>
 
     <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
     <div class="card h-200" style="height:100%">
-      <img src="images/nature3.jpg" class="card-img-top" alt="..." style="height:100%">
+
+        <video autoplay muted>
+        <source src="images/vid-2.mp4" type="video/mp4"></video>
+
       <div class="card-body">
         <h2 class="card-title">Kathmandu</h2>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text">The city of Glory. The rich cultural heritage and diverse religion do indeed make this city the City of Glory.
+A Lake turned City!. In ancient times Kathmandu Valley was actually a huge lake which was surrounded by the Himalayan...</p>
       </div>
 
       <div class="card-footer">
-          <a href="journey.aspx" class="btn">Start</a><br />
+          <a href="journey.aspx" class="btn">See More</a><br />
       </div>
     </div>
   </div>
   <div class="col">
     <div class="card h-200" style="height:100%">
-      <img src="images/nature2.jpg" class="card-img-top" alt="..." style="height:100%">
-      <div class="card-body">
-        <h2 class="card-title">Bhaktapur</h2>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <video autoplay muted><source src="images/vid-3.mp4" type="video/mp4"></video>  
+        <div class="card-body">
+        <h2 class="card-title">Pokhara</h2>
+        <p class="card-text">It is also known as “the city of lakes and ponds”. Pokhara is also known as the
+            “Town of Mountain Ranges” because it is surrounded by white snowcapped mountain and green hills.</p>
       </div>
       <div class="card-footer">
-        <a href="journey.aspx" class="btn">Start</a><br />
+        <a href="journey.aspx" class="btn">See More</a><br />
       </div>
     </div>
   </div>
   <div class="col">
     <div class="card h-200" style="height:100%">
-      <img src="images/nature1.jpg" class="card-img-top" alt="..." style="height:100%">
+        <video autoplay muted><source src="images/vid-1.mp4" type="video/mp4"></video>  
       <div class="card-body">
-        <h2 class="card-title">Lalitpur</h2>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        <h2 class="card-title">Mustang</h2>
+        <p class="card-text">The Mustang is heavily influenced by Tibetan cultures and traditions as Mustang was a lost kingdom of Tibet.
+            Although today it is a political part of Nepal, the traditions and cultures remain the same as the purely Tibetan ones.</p>
       </div>
       <div class="card-footer">
-        <a href="journey.aspx" class="btn">Start</a><br />
+        <a href="journey.aspx" class="btn">See More</a><br />
       </div>
     </div>
   </div>
@@ -242,11 +263,13 @@
     <div class="card h-200" style="height:100%">
       <img src="images/Ghandruk.jpg" class="card-img-top" alt="..." style="height:100%">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h2 class="card-title">Ghandruk</h2>
+        <p class="card-text">Ghandruk is the glowing Gurung culture village which is graced by nature
+            and culture to please every trekker around the world. Without the appreciation and love showered by the trekkers on seeing its genuine beauty,
+            Ghandruk won’t have been able to embark its name on the bucket list of many travelers.</p>
       </div>
       <div class="card-footer">
-        <a href="journey.aspx" class="btn">Start</a><br />
+        <a href="journey.aspx" class="btn">See More</a><br />
       </div>
     </div>
   </div>
@@ -254,11 +277,13 @@
     <div class="card h-200" style="height:100%">
       <img src="images/mount.jpg" class="card-img-top" alt="..." style="height:100%">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <h2 class="card-title">Everest</h2>
+        <p class="card-text">Mount Everest was recognized as the tallest mountain on the Himalayas in 1841.
+            It is 29,029 feet (8.85 km) tall and was believed to be insurmountable.
+            It is said that those that have climbed the mountain and reached their peak, have been to the top of the world.</p>
       </div>
       <div class="card-footer">
-        <a href="journey.aspx" class="btn">Start</a><br />
+        <a href="journey.aspx" class="btn">See More</a><br />
       </div>
     </div>
   </div>
@@ -266,11 +291,13 @@
     <div class="card h-200"style="height:100%">
       <img src="images/nature4.jpg" class="card-img-top" alt="..." style="height:100%">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        <h2 class="card-title">Rara Lake</h2>
+        <p class="card-text">Rara Lake is the biggest fresh water lake in the Nepalese Himalayas.
+            It is the main feature of Rara National Park, located in Jumla and Mugu Districts of Karnali Province.
+            In September 2007, it was declared a Ramsar site, covering 1,583 ha (6.11 sq mi) including the surrounding wetland.</p>
       </div>
       <div class="card-footer">
-        <a href="journey.aspx" class="btn">Start</a><br />
+        <a href="journey.aspx" class="btn">See More</a><br />
       </div>
     </div>
   </div>
@@ -283,37 +310,37 @@
   <div class="col">
     <div class="card h-200" style="height:100%">
       <img src="images/nature3.jpg" class="card-img-top" alt="..."style="height:100%">
-      <div class="card-body">
+     <%-- <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
       </div>
       <div class="card-footer">
         <a href="#" class="btn">See More...</a>
-      </div>
+      </div>--%>
     </div>
   </div>
   <div class="col">
     <div class="card h-200" style="height:100%">
       <img src="images/nature2.jpg" class="card-img-top" alt="..." style="height:100%">
-      <div class="card-body">
+      <%--<div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
       </div>
       <div class="card-footer">
         <a href="#" class="btn">See More...</a>
-      </div>
+      </div>--%>
     </div>
   </div>
   <div class="col">
     <div class="card h-200" style="height:100%;">
       <img src="images/nature1.jpg" class="card-img-top" alt="..." style="height:100%">
-      <div class="card-body">
+      <%--<div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
       </div>
       <div class="card-footer">
  
-      </div>
+      </div>--%>
     </div>
   </div>
 </div>
@@ -321,7 +348,7 @@
 
 
 
-    <!--Other destination-->
+<%--    <!--Other destination-->
     <div class="otherDest">
     <h2>Select Your Destination 
            <asp:DropDownList ID="DropDownList1" runat="server">
@@ -331,18 +358,16 @@
                <asp:ListItem>Solukhumbu</asp:ListItem>
         </asp:DropDownList>
           
-    </h2><br />
+    </h2><br />--%>
   
 
 
       
-
-        </div>
      <!-- Other destination -->
 
 
 </section>
-    <!-- packages section ends  -->
+    <!-- gallery section ends  -->
 
 
  
@@ -363,8 +388,7 @@
             <i class="fas fa-gem me-3"></i>Company name
           </h2>
           <h4>
-            TRAVEL NEPAL
-              Start your journey 
+           &nbsp &nbsp &nbsp TRAVEL NEPAL
           </h4>
         </div>
         <!-- Grid column -->
@@ -394,19 +418,19 @@
         <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
           <!-- Links -->
           <h2 class="text-uppercase fw-bold mb-4">
-            Useful links
+            Social Media
           </h2>
           <h4>
-            <a href="#!" class="text-reset">Pricing</a>
+            <a href="#!" class="text-reset">Facebook</a>
           </h4>
           <h4>
-            <a href="#!" class="text-reset">Settings</a>
+            <a href="#!" class="text-reset">Instagram</a>
           </h4>
           <h4>
-            <a href="#!" class="text-reset">Orders</a>
+            <a href="#!" class="text-reset">LinkedIn</a>
           </h4>
           <h4>
-            <a href="#!" class="text-reset">Help</a>
+            <a href="#!" class="text-reset">Twitter</a>
           </h4>
         </div>
         <!-- Grid column -->
@@ -415,14 +439,14 @@
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
           <!-- Links -->
           <h2 class="text-uppercase fw-bold mb-4">
-            Contact
+            Developed By
           </h2>
-          <h5><i class="fas fa-home me-3"></i> Kathmandu, NEPAL</h5>
-          <h5>
+          <h4><i class="fas fa-home me-3"></i> Youkesh Khatri</h4>
+          <h4><i class="fas fa-home me-3"></i> Sajan Rupakheti</h4>
+          <h4><i class="fas fa-home me-3"></i> Abhishek Lamichhane</h4>
+         <%-- <h5>
            &nbsp &nbsp <a class="text-reset fw-bold" href="https://mail.google.com/mail/u/0/#inbox">youkeshkhatri1234@gmail.com</a>
-          </h5>
-          <h5><i class="fas fa-phone me-3"></i> + 01 234 567 88</h5>
-          <h5><i class="fas fa-print me-3"></i> + 01 234 567 89</h5>
+          </h5>--%>
         </div>
         <!-- Grid column -->
       </div>
